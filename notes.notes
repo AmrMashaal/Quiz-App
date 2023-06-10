@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800;1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="info">
+          <div class="h2">category: general questions</div>
+          <div class="questions-length">number of questions: 10</div>
+        </div>
+        <div class="question">
+          <h1>what is the egyption capital</h1>
+          <div class="answers">
+            <div class="answer-one">
+              <input type="radio" id="answer-one" name="question" />
+              <label for="answer-one">tanta</label>
+            </div>
+            <div class="answer-two">
+              <input type="radio" id="answer-two" name="question" />
+              <label for="answer-two">giza</label>
+            </div>
+            <div class="answer-three">
+              <input type="radio" id="answer-three" name="question" />
+              <label for="answer-three">Alex</label>
+            </div>
+            <div class="right-answer">
+              <input type="radio" id="right-answer" name="question" />
+              <label for="right-answer">cairo</label>
+            </div>
+          </div>
+          <div class="spans">
+            <span class="submit">continue</span>
+            <span class="timer">
+              <span class="minutes">2</span> : <span class="minutes">0</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="main.js"></script>
